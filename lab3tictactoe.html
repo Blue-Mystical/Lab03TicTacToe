@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <script src="lab3tictactoe.js" defer></script>
+    <style>
+        td {
+            border: 2px solid black; background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-size: 30px; font-family: Helvetica; margin-left: 100px;">Tic tac toe</h2>
+    <table style="width:360px; height: 360px; border: 2px solid black; background-color: black;">
+        <tr>
+            <td><img src="blank.png" id="0" class="button"></td>
+            <td><img src="blank.png" id="1" class="button"></td>
+            <td><img src="blank.png" id="2" class="button"></td>
+        </tr>   
+        <tr>
+            <td><img src="blank.png" id="3" class="button"></td>
+            <td><img src="blank.png" id="4" class="button"></td>
+            <td><img src="blank.png" id="5" class="button"></td>
+        </tr>
+        <tr>
+            <td><img src="blank.png" id="6" class="button"></td>
+            <td><img src="blank.png" id="7" class="button"></td>
+            <td><img src="blank.png" id="8" class="button"></td>
+        </tr>
+    </table>
+    <div id="result" style="font-size: 30px;"></div>
+    <button id="reset" style="font-size: 30px;">Reset</button>
+</body>
+</html>
